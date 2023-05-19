@@ -1,5 +1,6 @@
 import "./App.css";
-import { SinglePost } from "./SinglePost";
+import { datalist } from "./SinglePost";
+import Posts from "./Posts";
 
 function App() {
   return (
@@ -7,10 +8,13 @@ function App() {
       <section className="header">
         <div className="leftside">
           <h1>Notifications</h1>
+          <div className="number">3</div>
         </div>
-        <p>Mark all as read</p>
+        <p className="mark">Mark all as read</p>
       </section>
-      {SinglePost.map((object) => console.log(object.author.name))}
+      {datalist.map((data, index) => (
+        <Posts key={index} data={data} />
+      ))}
     </div>
   );
 }

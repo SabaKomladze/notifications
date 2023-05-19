@@ -1,8 +1,9 @@
-export const SinglePost = [
+export const datalist = [
   {
+    id: 1,
     author: {
       name: "Mark Webber",
-      img: "./assets/avatar-mark-webber.webp",
+      img: "./assets/images/avatar-mark-webber.webp",
     },
 
     text: "reacted to your recent post",
@@ -11,54 +12,48 @@ export const SinglePost = [
     read: false,
   },
   {
+    id: 2,
     author: {
       name: "Angela Gray",
-      img: "./assets/avatar-angela-gray.webp",
+      img: "./assets/images/avatar-angela-gray.webp",
     },
 
-    text: "avatar-angela-gray.webp",
+    text: "followed you",
     time: "5m ago",
     read: false,
   },
   {
+    id: 3,
     author: {
       name: "Jacob Thompson",
-      img: "./assets/avatar-jacob-thompson.webp",
+      img: "./assets/images/avatar-jacob-thompson.webp",
     },
 
     text: "has joined your group",
-    msg: "Chess Club",
+    chess: "Chess Club",
     time: "1 day ago",
     read: false,
   },
 
   {
-    author: {
-      name: "Mark Webber",
-      img: "./assets/avatar-mark-webber.webp",
-    },
-
-    text: "reacted to your recent post",
-    msg: "My first tournament today!",
-    time: "1m ago",
-    read: false,
-  },
-
-  {
+    id: 4,
     author: {
       name: "Rizky Hasanuddin",
-      img: "./assets/avatar-rizky-hasanuddin.webp",
+      img: "./assets/images/avatar-rizky-hasanuddin.webp",
     },
 
     text: "sent you a private message",
     time: "1 day ago",
     msg: "My first tournament today!",
+    private:
+      "Hello, thanks for setting up the Chess Club. I’ve been a member for a few weeks now and I’m already having lots of fun and improving my game.",
     read: true,
   },
   {
+    id: 5,
     author: {
       name: "Kimberly Smith",
-      img: "./assets/avatar-kimberly-smith.webp",
+      img: "./assets/images/avatar-kimberly-smith.webp",
     },
 
     text: "commented on your picture",
@@ -66,9 +61,10 @@ export const SinglePost = [
     read: true,
   },
   {
+    id: 6,
     author: {
       name: "Nathan Peterson",
-      img: "./assets/avatar-nathan-peterson.webp",
+      img: "./assets/images/avatar-nathan-peterson.webp",
     },
 
     text: "reacted to your recent post",
@@ -78,13 +74,14 @@ export const SinglePost = [
   },
 
   {
+    id: 7,
     author: {
       name: "Anna Kim",
-      img: "./assets/avatar-anna-kim.webp",
+      img: "./assets/images/avatar-anna-kim.webp",
     },
 
     text: "left the group",
-    msg: "Chess Club",
+    chess: "Chess Club",
     time: "2 weeks ago",
     read: true,
   },

@@ -1,0 +1,49 @@
+.post {
+  display: flex;
+  align-items: flex-start;
+}
+
+img[alt="photo"] {
+  width: 39px;
+  height: 39px;
+  padding-right: 13px;
+  transform: translateY(50%);
+}
+.message {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5e6778;
+}
+.name {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 18px;
+  color: #1c202b;
+}
+.time {
+  font-size: 14px;
+  line-height: 18px;
+  color: #939cad;
+  margin-top: 3px;
+}
+.chess {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #0a327b;
+}
+.private {
+  background: #ffffff;
+  border: 1px solid #dde7ee;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5e6778;
+  width: 70.13%;
+  padding: 16px;
+  position: relative;
+  left: 36px;
+  top: 12px;
+}
