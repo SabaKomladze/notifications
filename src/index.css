@@ -8,6 +8,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Plus Jakarta Sans";
   font-style: normal;
+  display: flex;
+  justify-content: center;
 }
 
 code {

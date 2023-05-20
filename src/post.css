@@ -1,13 +1,21 @@
 .post {
   display: flex;
   align-items: flex-start;
+  min-height: 80px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.post2 {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f7fafd;
 }
 
 img[alt="photo"] {
   width: 39px;
   height: 39px;
   padding-right: 13px;
-  transform: translateY(50%);
+  transform: translateY(10%);
 }
 .message {
   font-weight: 700;

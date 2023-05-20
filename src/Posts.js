@@ -4,14 +4,14 @@ export default function Posts({ data }) {
     <div>
       <div className="post">
         <img src={data.author.img} alt="photo" />
-        <p className="text">
+        <div className="text">
           <span className="name">{data.author.name} </span>
           {data.text}
           <span className="message"> {data.msg}</span>
           {data.chess ? <span className="chess"> {data.chess}</span> : null}
-          {data.private ? <div className="private"> {data.private}</div> : null}
+          {data.private ? <p className="private"> {data.private}</p> : null}
           <br /> <span className="time">{data.time}</span>
-        </p>
+        </div>
       </div>
     </div>
   );
