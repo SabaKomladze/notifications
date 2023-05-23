@@ -1,20 +1,35 @@
 .post {
   display: flex;
-  align-items: flex-start;
-  min-height: 80px;
-  margin-top: 8px;
-  cursor: pointer;
+  align-items: center;
+  flex-direction: row;
 }
-.post2 {
-  display: flex;
-  align-items: flex-start;
+.postread {
   background-color: #f7fafd;
+  cursor: pointer;
+  padding: 16px;
+  margin-top: 8px;
 }
-
+.postunread {
+  background-color: #fff;
+  cursor: pointer;
+  padding: 16px;
+  margin-top: 8px;
+}
+.text {
+  margin-left: 13px;
+}
+.dot {
+  background-color: #f65552;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-left: 6px;
+  display: inline-block;
+}
 img[alt="photo"] {
   width: 39px;
   height: 39px;
-  padding-right: 13px;
+
   transform: translateY(10%);
 }
 .message {
@@ -22,18 +37,21 @@ img[alt="photo"] {
   font-size: 14px;
   line-height: 18px;
   color: #5e6778;
+  margin: 0 6px;
 }
 .name {
   font-weight: 800;
   font-size: 14px;
   line-height: 18px;
   color: #1c202b;
+  margin-right: 6px;
 }
 .time {
   font-size: 14px;
   line-height: 18px;
   color: #939cad;
   margin-top: 3px;
+  margin-left: 50px;
 }
 .chess {
   font-weight: 700;
@@ -53,5 +71,5 @@ img[alt="photo"] {
   padding: 16px;
   position: relative;
   left: 36px;
-  top: 12px;
+  margin-top: 12px;
 }
